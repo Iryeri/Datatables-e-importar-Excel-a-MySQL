@@ -1,0 +1,77 @@
+thead input {
+    width: 100%;
+}
+
+table.dataTable thead th, table.dataTable thead td
+{
+    background-color: rgba(0, 128, 122, 0.842);
+    color: white;
+}
+
+.dt-buttons .buttons-colvis, button.dt-button
+{
+    background-color: rgba(0, 128, 122, 0.842);
+    border-color: rgba(0, 128, 122, 0.842);
+    color:white;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.buttons-colvis
+{
+    margin-left: 10px;
+}
+
+div.dt-button-collection button.dt-button:active:not(.disabled), div.dt-button-collection button.dt-button.active:not(.disabled), 
+div.dt-button-collection div.dt-button:active:not(.disabled), div.dt-button-collection div.dt-button.active:not(.disabled), 
+div.dt-button-collection a.dt-button:active:not(.disabled), div.dt-button-collection a.dt-button.active:not(.disabled)
+{
+    color: black;
+}
+
+.dt-buttons .buttons-excel
+{
+    background-color: green;
+    border-color: green;
+}  
+
+.dt-buttons .buttons-pdf
+{
+    background-color: red;
+    border-color: red;
+} 
+
+.buttons-colvis::hover
+{
+    color: black;
+}
+
+.dt-buttons .buttons-print
+{
+    background-color: rgb(0, 162, 255);
+    border-color:  rgb(0, 162, 255);
+}
+
+.dt-buttons .buttons-csv
+{
+    background-color: rgb(120, 124, 126);
+    border-color: rgb(120, 124, 126);
+}
+
+.dt-buttons .buttons-copy
+{
+    background-color: rgba(0, 174, 255, 0.377);
+    border-color: rgb(0, 174, 255, 0.377);
+}
+
+.fa-file-excel, .fa-file-pdf, .fa-file-csv, .fa-print, .fa-copy
+{
+    font-size: 1.3rem;
+    color: white;
+}
+
+div.dt-button-collection button.dt-button
+{
+    border-radius:  4px;
+}
+
