@@ -31,6 +31,5 @@ Route::post('/registrar', 'NombreController@store');
 Route::put('/actualizar/{id}', 'NombreController@update');
 Route::delete('/eliminar/{id}', 'NombreController@delete');
 
-
 Route::get('/apellidos', 'ApellidoController@archivo');
 
